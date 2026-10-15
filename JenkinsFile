@@ -40,3 +40,9 @@ pipeline {
         success {
             echo 'Build et tests termines avec succes.'
         }
+ 
+        failure {
+            echo 'Echec du pipeline : consulter les logs.'
+        }
+    }
+}
