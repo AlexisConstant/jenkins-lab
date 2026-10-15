@@ -41,3 +41,9 @@ pipeline {
         success {
             echo 'Pipeline termine avec succes.'
         }
+ 
+        failure {
+            echo 'Echec du pipeline : consulter les logs.'
+        }
+    }
+}
